@@ -12,8 +12,8 @@
 // Initialize session.
 start_adventure_session();
 
-$data = array();
-$log_array = array();
+//$data = array();
+$//log_array = array();
 
 function start_adventure_session() {
   session_start();
@@ -27,7 +27,7 @@ function start_adventure_session() {
 function run_command($command) {
   global $data;
   global $log_array;
-  global $standard_text;
+  //global $standard_text;
   
   $global_commands = array('reset', 'wait', 'pick nose');
   
